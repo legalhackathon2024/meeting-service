@@ -11,7 +11,7 @@ spring:
     open-in-view: true
     properties:
       hibernate:
-        default_schema: users
+        default_schema: meetings
   liquibase:
     change-log: classpath:db/changelog-master.yml
     enabled: true
