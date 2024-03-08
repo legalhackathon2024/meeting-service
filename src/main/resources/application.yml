@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5434/meeting_db
+    url: jdbc:postgresql://localhost:5433/user_db
     username: postgres
     password: postgres
   jpa:
@@ -11,7 +11,7 @@ spring:
     open-in-view: true
     properties:
       hibernate:
-        default_schema: meetings
+        default_schema: users
   liquibase:
     change-log: classpath:db/changelog-master.yml
     enabled: true
